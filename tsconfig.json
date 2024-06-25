@@ -10,8 +10,8 @@
       "@assets/*": [
         "./src/assests/*"
       ],
-      "@componets/*": [
-        "./src/componets/*"
+      "@components/*": [
+        "./src/components/*"
       ],
       "@routes/*": [
         "./src/routes/*"
