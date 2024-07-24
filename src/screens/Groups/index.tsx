@@ -33,6 +33,7 @@ export function Groups() {
                     <ListEmpty
                         message="Que tal cadastrar a primeira turma" />
                 )}
+                showsVerticalScrollIndicator={false}
             />
 
             <Button

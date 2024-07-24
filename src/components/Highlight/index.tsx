@@ -1,4 +1,4 @@
-import { Contatiner, Title, Subtitle } from "./style";
+import { Container, Title, Subtitle } from "./style";
 
 type Props = {
     title: string;
@@ -7,7 +7,7 @@ type Props = {
 
 export function Highlight( { title, subtitle}: Props) {
     return (
-        <Contatiner>
+        <Container>
             <Title>
                 {title}
             </Title>
@@ -15,6 +15,6 @@ export function Highlight( { title, subtitle}: Props) {
             <Subtitle>
                 {subtitle}
             </Subtitle>
-        </Contatiner>
+        </Container>
     );
 }

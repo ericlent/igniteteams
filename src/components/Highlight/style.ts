@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components/native";
 
-export const Contatiner = styled.View`
+export const Container = styled.View`
     width: 100%;
     margin: 32px 0;
 `;
